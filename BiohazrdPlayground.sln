@@ -1,0 +1,69 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BiohazrdPlayground", "BiohazrdPlayground\BiohazrdPlayground.csproj", "{7658F35B-CEFE-4391-BC66-44011706C8D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{52C57E2B-9141-49B3-B31F-F5E154ED3920}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "external", "external", "{0B8210ED-9267-4174-B8F2-6ADB03882BDD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biohazrd", "external\Biohazrd\Biohazrd\Biohazrd.csproj", "{010A70DD-1281-41DD-B4D3-30C667507339}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biohazrd.CSharp", "external\Biohazrd\Biohazrd.CSharp\Biohazrd.CSharp.csproj", "{5F550EF5-6D13-46D7-A57C-AF1A717B5488}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biohazrd.OutputGeneration", "external\Biohazrd\Biohazrd.OutputGeneration\Biohazrd.OutputGeneration.csproj", "{6237DAFF-EF02-4D43-83CC-DC0981FCAECF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biohazrd.Transformation", "external\Biohazrd\Biohazrd.Transformation\Biohazrd.Transformation.csproj", "{3157791A-5F8E-44B2-AF10-381B419997B0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Biohazrd.Utilities", "external\Biohazrd\Biohazrd.Utilities\Biohazrd.Utilities.csproj", "{981B3086-0105-4BA4-99CA-122E213160A3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7658F35B-CEFE-4391-BC66-44011706C8D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7658F35B-CEFE-4391-BC66-44011706C8D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7658F35B-CEFE-4391-BC66-44011706C8D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7658F35B-CEFE-4391-BC66-44011706C8D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{010A70DD-1281-41DD-B4D3-30C667507339}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{010A70DD-1281-41DD-B4D3-30C667507339}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{010A70DD-1281-41DD-B4D3-30C667507339}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{010A70DD-1281-41DD-B4D3-30C667507339}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F550EF5-6D13-46D7-A57C-AF1A717B5488}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F550EF5-6D13-46D7-A57C-AF1A717B5488}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F550EF5-6D13-46D7-A57C-AF1A717B5488}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F550EF5-6D13-46D7-A57C-AF1A717B5488}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6237DAFF-EF02-4D43-83CC-DC0981FCAECF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6237DAFF-EF02-4D43-83CC-DC0981FCAECF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6237DAFF-EF02-4D43-83CC-DC0981FCAECF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6237DAFF-EF02-4D43-83CC-DC0981FCAECF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3157791A-5F8E-44B2-AF10-381B419997B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3157791A-5F8E-44B2-AF10-381B419997B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3157791A-5F8E-44B2-AF10-381B419997B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3157791A-5F8E-44B2-AF10-381B419997B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{981B3086-0105-4BA4-99CA-122E213160A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{981B3086-0105-4BA4-99CA-122E213160A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{981B3086-0105-4BA4-99CA-122E213160A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{981B3086-0105-4BA4-99CA-122E213160A3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{010A70DD-1281-41DD-B4D3-30C667507339} = {0B8210ED-9267-4174-B8F2-6ADB03882BDD}
+		{5F550EF5-6D13-46D7-A57C-AF1A717B5488} = {0B8210ED-9267-4174-B8F2-6ADB03882BDD}
+		{6237DAFF-EF02-4D43-83CC-DC0981FCAECF} = {0B8210ED-9267-4174-B8F2-6ADB03882BDD}
+		{3157791A-5F8E-44B2-AF10-381B419997B0} = {0B8210ED-9267-4174-B8F2-6ADB03882BDD}
+		{981B3086-0105-4BA4-99CA-122E213160A3} = {0B8210ED-9267-4174-B8F2-6ADB03882BDD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {871983F0-5BA8-4D8F-9E06-CA712A7FF5B7}
+	EndGlobalSection
+EndGlobal

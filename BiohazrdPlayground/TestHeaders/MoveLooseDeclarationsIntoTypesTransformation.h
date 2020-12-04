@@ -1,0 +1,3 @@
+﻿int SomeGlobalVariable;
+
+void MyLooseFunction();

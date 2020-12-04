@@ -1,0 +1,17 @@
+<Project>
+  <PropertyGroup>
+    <!-- Common C# Properties -->
+    <LangVersion>9.0</LangVersion>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Features>strict</Features>
+    <Nullable>enable</Nullable>
+    <AnalysisLevel>5.0</AnalysisLevel>
+
+    <!--
+      ClangSharp.Pathogen requires Windows x64 right now
+      This is also indirectly a workaround for https://github.com/microsoft/ClangSharp/issues/118#issuecomment-598305888
+    -->
+    <PlatformTarget>x64</PlatformTarget>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+  </PropertyGroup>
+</Project>

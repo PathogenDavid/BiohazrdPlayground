@@ -1,0 +1,3 @@
+[submodule "external/Biohazrd"]
+	path = external/Biohazrd
+	url = https://github.com/InfectedLibraries/Biohazrd.git
